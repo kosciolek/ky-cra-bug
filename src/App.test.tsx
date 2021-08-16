@@ -23,4 +23,8 @@ test("renders learn react link", async () => {
 
   runLongForm();
   runShortForm();
+
+  while (true) {
+    await new Promise(res => setTimeout(res, 100));
+  }
 }, 20000);
